@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.hero{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("Graphics/Symbol 3 copy.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+#Pump{
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  width: 350px;
+  height: 250px;
+  cursor: pointer;
+}
+
+.balloon-box{
+  position: absolute;
+  right: 17%;
+  bottom: 18%;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.balloon{
+  width: 100%;
+  height: 100%;
+}
+
+
+.A{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
